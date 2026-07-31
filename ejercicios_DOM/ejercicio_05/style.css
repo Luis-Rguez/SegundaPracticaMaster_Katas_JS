@@ -1,0 +1,47 @@
+:root
+{
+    --color-primary: rgb(204, 200, 200);
+    --color-secundary: rgb(121, 189, 146);
+
+    --back-color: rgb(48, 47, 47);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+body
+{
+    background-color: var(--back-color);
+    color: var(--color-primary);
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 10px;
+}
+
+li
+{
+    padding: 10px; 
+}
+
+h1
+{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: var(--color-secundary);
+}
+
+h1, ul
+{
+    text-align: center;
+    text-transform: uppercase;
+}
